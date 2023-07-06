@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
+    font-size: 1.6rem;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+body, button, input {
+    font-family: 'DM Sans', sans-serif;
+}
+
+main {
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 0.6rem;
+    padding: 4.8rem 6.4rem 6.4rem;
+    width: min(42.8rem, 90%);
+    margin-top: -12rem;
+    text-align: center;
+}
+
+main .screen1 h1{ 
+    color: #34355B;
+    font-size: 2.4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-bottom: 1.6rem;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main p {
+    color: rgba(52, 53, 91, 0.80);
+
+    font-size: 1.6rem;
+    font-family: 'DM Sans', sans-serif;
+    padding-bottom: 4.8rem;
+}
+
+main .screen1 input {
+    background-color: hsla(212, 23%, 89%, 1);
+    width: 4.5rem;
+    height: 5.3rem;
+    border-radius: 0.4rem 0rem 0rem 0.4rem;
+    padding: 1.6rem;
+
+}
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+main button {
+    color: hsla(0, 0%, 100%, 1);
+    font-size: 1.6rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 0rem 0.4rem 0.4rem 0rem;
+    background-color: hsla(240, 81%, 71%, 1);
+    width: 8.3rem;
+    height: 5.3rem;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #6363ce;
+}
+
+main button, main .screen1 input {
+    border: none;
+}
+
+.hide {
+    display: none;
+}
+
+main .screen2 h2 {
+    color: #34355B;
+    font-size: 2.4rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    padding-bottom: 1.6rem;
+}
+
+main .screen2 button {
+    width: 16.6rem;
+    height: 5.3rem;
+    padding: 1.6rem;
+    border-radius: 0.4rem;
+}
